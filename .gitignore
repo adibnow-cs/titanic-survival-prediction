@@ -1,0 +1,40 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (CSV, ZIP, etc.)
+data/
+data/*.csv
+data/*.zip
+data/*.pkl
+data/*.h5
+data/*.xlsx
+data/gender_submission.csv
+data/tesst.csv
+data/train.csv
+
+# Ignore model weights and outputs
+*.h5
+*.pkl
+*.joblib
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore IDE or OS-specific files
+.DS_Store
+*.swp
+*.swo
+*.idea/
+.vscode/
